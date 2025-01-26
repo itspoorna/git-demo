@@ -60,3 +60,9 @@ Tagging :
   1 - Annotated : used to give info along with the tag.
   2 - lightweighted
 
+Braching : 
+
+  1 - git checkout -b branchName : Created a branch and switches to that branch from the working branch.
+  2 - git switch -c branchName : Similarly switch is used.
+
+  - To delete branch : git branch -d branchName.
