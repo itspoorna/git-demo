@@ -30,3 +30,27 @@ Git Commands : working -> staging -> commit.
     7 - git diff : This shows you the difference between working, staged and commit files.
 
     8 - git rm --cached fileName.extn : This will remove the file from commit area.
+
+Push the content to github : 
+
+  1 - git init 
+  2 - git add .
+  3 - git commit -m "Commit message"
+
+  4 - git branch -M main  : This is optional, if we haven't made branch initialization during git init.
+
+  Before going next step we need to connect our local repository to remote repository.
+  Because all we done till now is in the local repository.
+
+  To connect there are 2 way : 
+    1 - https : You need login every time you push.
+    2 - ssh : Here connection made using ssh key. This is generated using following command
+      --> ssh-keygen -o 
+      --> Then you will get the key in .ssh folder present in the user folder of the system.
+      Key is present in id_ed25519.pub file.
+
+  Once these all steps done now it's ready to connect local repository to remote.
+
+  5 - git remote add origin --url--  : This will establish the connection between local with remote.
+
+  6 - git push -u origin main : This will push the code to github repository (remote repository).
