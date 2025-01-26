@@ -26,3 +26,7 @@ Git Commands : working -> staging -> commit.
     5 - git log : git log shows the commit history of your repository, listing each commit with its unique ID, author, date, and message.
 
     6 - git commit -a -m "To skip staging" : This will move Unstaged files from working directory to commit.
+
+    7 - git diff : This shows you the difference between working, staged and commit files.
+
+    8 - git rm --cached fileName.extn : This will remove the file from commit area.
