@@ -1,4 +1,4 @@
-Git Commands : 
+Git Commands : working -> staging -> commit.
   
     1 - git init :
 
@@ -24,3 +24,5 @@ Git Commands :
       and ensuring you can always go back to this version if needed.
 
     5 - git log : git log shows the commit history of your repository, listing each commit with its unique ID, author, date, and message.
+
+    6 - git commit -a -m "To skip staging" : This will move Unstaged files from working directory to commit.
