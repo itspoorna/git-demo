@@ -54,3 +54,8 @@ Push the content to github :
   5 - git remote add origin --url--  : This will establish the connection between local with remote.
 
   6 - git push -u origin main : This will push the code to github repository (remote repository).
+
+Tagging : 
+
+  1 - Annotated
+  2 - lightweighted
