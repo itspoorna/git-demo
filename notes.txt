@@ -57,5 +57,6 @@ Push the content to github :
 
 Tagging : 
 
-  1 - Annotated
+  1 - Annotated : used to give info along with the tag.
   2 - lightweighted
+
