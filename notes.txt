@@ -1,0 +1,8 @@
+Git Commands : 
+
+    1 - git init : 
+
+      *  These commands will initialize Git.
+      *  By default, Git will be initialized to the master branch.
+      *  To set it to the main branch, use the following command:
+        --> git init -b main
